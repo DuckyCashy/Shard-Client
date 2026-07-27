@@ -1,13 +1,16 @@
+<p align="center">
+<img src="https://meteorclient.com/icon.png" 
+alt="shard-client-logo" width="15%"/>
+</p>
+
 <h1 align="center">Shard Client</h1>
 <p align="center">A Minecraft Fabric Utility Mod for anarchy servers.</p>
 
 <div align="center">
-    <img src="https://img.shields.io/github/last-commit/syntax-studio-11010/shard-client" alt="GitHub last commit"/>
-    <img src="https://img.shields.io/github/commit-activity/w/syntax-studio-11010/shard-client" alt="GitHub commit activity"/>
-    <img src="https://img.shields.io/github/contributors/syntax-studio-11010/shard-client" alt="GitHub contributors"/>
-    <br>
-    <img src="https://img.shields.io/github/languages/code-size/syntax-studio-11010/shard-client" alt="GitHub code size in bytes"/>
-    <img src="https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/syntax-studio-11010/shard-client/badge?filter=.java$&label=lines%20of%20code&color=blue" alt="GitHub lines of code"/>
+    <img src="https://img.shields.io/badge/Minecraft-1.20.x--1.21.x-brightgreen" alt="Minecraft Version"/>
+    <img src="https://img.shields.io/badge/Mod%20Loader-Fabric-blue" alt="Fabric"/>
+    <img src="https://img.shields.io/badge/Build-Gradle-blue" alt="Gradle"/>
+    <img src="https://img.shields.io/badge/License-GPL--3.0-orange" alt="License"/>
 </div>
 
 ## Usage
