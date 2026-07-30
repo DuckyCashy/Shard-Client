@@ -7,16 +7,16 @@
 **A high-performance Minecraft Fabric Utility Mod engineered for anarchy servers, software testing, and developer research.**
 
 [![Fabric API](https://img.shields.io/badge/Modloader-Fabric-blue?style=for-the-badge&logo=fabric)](https://fabricmc.net/)
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.17.x%20--%201.21.x-brightgreen?style=for-the-badge&logo=minecraft)](https://minecraft.net/)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/your-invite)
-[![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.17.x%20--%2026.x-brightgreen?style=for-the-badge&logo=minecraft)](https://minecraft.net/)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/b5b9qNWHWz)
+[![License](https://img.shields.io/badge/License-GNU-orange?style=for-the-badge)](LICENSE)
 
 </div>
 
 ---
 
-## ⚠️ Disclaimer
-Shard Client is an open-source project developed for **educational purposes, protocol testing, and software research within controlled environments**. Users are responsible for complying with the rules and guidelines of any server they connect to.
+> [!CAUTION]
+> Shard Client is an open-source project developed for **educational purposes, protocol testing, and software research within controlled environments**. Users are responsible for complying with the rules and guidelines of > any server they connect to.
 
 ---
 
