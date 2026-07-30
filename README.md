@@ -1,6 +1,8 @@
 <div align="center">
 
-# 💎 Shard Client
+<img src="icon.png" alt="Shard Client Logo" width="96" height="96">
+
+# Shard Client
 
 **A high-performance Minecraft Fabric Utility Mod engineered for anarchy servers, software testing, and developer research.**
 
