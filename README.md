@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="icon.png" alt="Shard Client Logo" width="96" height="96">
+<img src="src/main/resources/assets/meteor-client/icon.png" alt="Shard Client Logo" width="96" height="96">
 
 # Shard Client
 
