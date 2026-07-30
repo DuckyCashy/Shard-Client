@@ -1,55 +1,71 @@
-<p align="center">
-<img src="https://meteorclient.com/icon.png" 
-alt="shard-client-logo" width="15%"/>
-</p>
-
-<h1 align="center">Shard Client</h1>
-<p align="center">A Minecraft Fabric Utility Mod for anarchy servers.</p>
-
 <div align="center">
-    <img src="https://img.shields.io/badge/Minecraft-1.20.x--1.21.x-brightgreen" alt="Minecraft Version"/>
-    <img src="https://img.shields.io/badge/Mod%20Loader-Fabric-blue" alt="Fabric"/>
-    <img src="https://img.shields.io/badge/Build-Gradle-blue" alt="Gradle"/>
-    <img src="https://img.shields.io/badge/License-GPL--3.0-orange" alt="License"/>
+
+# 💎 Shard Client
+
+**A high-performance Minecraft Fabric Utility Mod engineered for anarchy servers, software testing, and developer research.**
+
+[![Fabric API](https://img.shields.io/badge/Modloader-Fabric-blue?style=for-the-badge&logo=fabric)](https://fabricmc.net/)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.17.x%20--%201.21.x-brightgreen?style=for-the-badge&logo=minecraft)](https://minecraft.net/)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/your-invite)
+[![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
+
 </div>
 
-## Usage
+---
 
-### Building
-- Clone this repository
-- Run `./gradlew build` (or `.\gradlew.bat build` on Windows)
+## ⚠️ Disclaimer
+Shard Client is an open-source project developed for **educational purposes, protocol testing, and software research within controlled environments**. Users are responsible for complying with the rules and guidelines of any server they connect to.
 
-### Installation
-- Build the project or download the compiled jar from releases.
-- Place the compiled `.jar` file into your `.minecraft/mods` folder along with Fabric Loader.
+---
 
-## Contributions
-We will review and help with all reasonable pull requests as long as the guidelines below are met.
+## ✨ Key Features
 
-- The license header must be applied to all java source code files.
-- IDE or system-related files should be added to the `.gitignore`, never committed in pull requests.
-- In general, check existing code to make sure your code matches relatively close to the code already in the project.
-- Favour readability over compactness.
-- If you need help, check out the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) for a reference.
+### ⚔️ Combat
+* **CrystalAura, BedAura & AnchorAura** — Automated crystal placement, bed detonator, and anchor charging.
+* **AutoTotem & Offhand** — Smart offhand management and low-health emergency totem swapping.
+* **Surround & SelfTrap** — Automated obsidian placement for blast protection and self-defense.
+* **AutoCity & HoleFill** — Breaker logic for enemy feet-blocks and 1x1 hole denial.
+* **KillAura & TriggerBot** — Entity attack automation with weapon rotation and cooldowns.
 
-## Bugs and Suggestions
-Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/syntax-studio-11010/shard-client/issues) using the templates provided.  
-Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
+### 🏃 Movement
+* **ElytraFly & PacketFly** — High-speed highway travel modes and phase flight capabilities.
+* **Speed, Velocity & Step** — Customizable movement tweaks, instant stepping, and knockback reduction.
+* **Jesus, SafeWalk & EntityFly** — Fluid interaction with liquids, safe block-edge traversal, and mount controls.
 
-## Donations
-All of our work is completely free and non-profit. If you enjoy the project and want to support ongoing development, code contributions and testing are the best ways to help!
+### 👁️ Render
+* **Storage & Player ESP** — Highlights chests, shulker boxes, ender chests, and players through walls.
+* **Tracers & Nametags** — Vector lines pointing to nearby entities with detailed HUD info overlays.
+* **NewChunks & Waypoints** — Detects freshly generated chunks for base hunting and custom 3D coordinate pins.
+* **Fullbright & Freecam** — Maximum night vision lighting overrides and detached camera scouting.
 
-## Credits
-[Meteor Development](https://github.com/MeteorDevelopment/meteor-client) for original client framework references  
-[Cabaletta](https://github.com/cabaletta) and [WagYourTail](https://github.com/wagyourtail) for [Baritone](https://github.com/cabaletta/baritone)  
-The [Fabric Team](https://github.com/FabricMC) for [Fabric](https://github.com/FabricMC/fabric-loader) and [Yarn](https://github.com/FabricMC/yarn)
+### ⛏️ World & Utility
+* **PacketMine & SpeedMine** — Background block breaking packets and mining speed tweaks.
+* **Baritone Integration** — Fully compatible with Baritone pathfinding for automated navigation.
+* **AutoLog & AutoRespawn** — Automatic safety disconnects and death screen skips.
+* **Discord RPC** — Customizable status presence showing current server IP, coordinates, and health.
 
-## Licensing
-This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). 
+---
 
-If you use **ANY** code from the source:
-- You must disclose the source code of your modified work and the source code you took from this project. This means you are not allowed to use code from this project (even partially) in a closed-source and/or obfuscated application.
-- You must state clearly and obviously to all end users that you are using code from this project.
-- Your application must also be licensed under the same license.
+## ⚙️ Installation
 
-*If you have any other questions, check our [Issues](https://github.com/syntax-studio-11010/shard-client/issues) page or start a discussion in our repository.*
+1. Download and install **[Fabric Loader](https://fabricmc.net/use/installer/)** for your target Minecraft version.
+2. Download the matching **[Fabric API](https://modrinth.com/mod/fabric-api)** mod `.jar`.
+3. Download the latest release of **Shard Client** from the [Releases Page](https://github.com/Syntax-Studios-11010/Shard-Client/releases).
+4. Place both `.jar` files into your `.minecraft/mods` directory.
+5. Launch Minecraft using the Fabric profile.
+
+---
+
+## 🛠️ Building from Source
+
+To build Shard Client yourself from source code:
+
+```bash
+# Clone the repository
+git clone [https://github.com/Syntax-Studios-11010/Shard-Client.git](https://github.com/Syntax-Studios-11010/Shard-Client.git)
+
+# Navigate into the directory
+cd Shard-Client
+
+# Build using the Gradle wrapper
+./gradlew build
