@@ -72,7 +72,8 @@ cd Shard-Client
 # Build using the Gradle wrapper
 ./gradlew build
 
-The compiled .jar file will be generated in the ```build/libs/``` directory.
+The compiled .jar file will be generated in the build/libs/ directory.
+
 # 🤝 Contributing & Support
 Contributions, issue reports, and pull requests are welcome!
 Found a bug? Open an issue on our GitHub Issues tab.
