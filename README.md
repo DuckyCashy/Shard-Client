@@ -16,7 +16,7 @@
 ---
 
 > [!CAUTION]
-> Shard Client is an open-source project developed for **educational purposes, protocol testing, and software research within controlled environments**. Users are responsible for complying with the rules and guidelines of > any server they connect to.
+> Shard Client is an open-source project developed for **educational purposes, protocol testing, and software research within controlled environments**. Users are responsible for complying with the rules and guidelines of any server they connect to.
 
 ---
 
@@ -71,13 +71,20 @@ cd Shard-Client
 
 # Build using the Gradle wrapper
 ./gradlew build
+```
 
-The compiled .jar file will be generated in the build/libs/ directory.
+The compiled `.jar` file will be generated in the `build/libs/` directory.
 
-# 🤝 Contributing & Support
+---
+
+## 🤝 Contributing & Support
+
 Contributions, issue reports, and pull requests are welcome!
-Found a bug? Open an issue on our GitHub Issues tab.
-Need help or want to join the community? Join our Discord Server.
+* Found a bug? Open an issue on our [GitHub Issues](https://github.com/Syntax-Studios-11010/Shard-Client/issues) tab.
+* Need help or want to join the community? Join our [Discord Server](https://discord.gg/b5b9qNWHWz).
 
-# 📜 License
-This project is licensed under the GNU General Public License v3.0.
+---
+
+## 📜 License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
